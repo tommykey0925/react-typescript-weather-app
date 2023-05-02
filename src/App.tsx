@@ -5,7 +5,7 @@ import Results from './components/Results';
 import Loading from './components/Loading';
 import './App.css';
 
-type ResultsStateType = {
+export type ResultsStateType = {
   country: string;
   cityName: string;
   temperature: string;

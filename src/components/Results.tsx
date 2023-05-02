@@ -1,11 +1,7 @@
+import {ResultsStateType} from '../App';
+
 type ResultsPropsType = {
-  results: {
-    country: string;
-    cityName: string;
-    temperature: string;
-    conditionText: string;
-    icon: string;  
-  }
+  results: ResultsStateType;
 }
 
 const Results = ({results}: ResultsPropsType) => {
